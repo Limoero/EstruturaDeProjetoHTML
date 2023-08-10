@@ -1,0 +1,17 @@
+.linguagens{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    
+    align-items:center;
+    justify-content: center;
+
+
+    background-color: blueviolet;
+    height: 200px;
+}
+.linguagens div{
+    background-color: cornflowerblue;
+
+}
