@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="/public/assets/css/global.css">
+    <link rel="stylesheet" href="/public/assets/css/normalize.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/src/pages/dummy/registrar.css">
+    <title>Dummy Games</title>
+</head>
+<header>
+    <nav>
+        <ul>
+            <img src="/public/assets/images/dummygames.svg" alt="logo dummygames" class="logoimg">
+            <li><a href="#">Pagina Inicial</a></li>
+            <li><a href="#">Sobre</a></li>
+            <li><a href="#">Serviços</a></li>
+            <li><a href="#">Contatos</a></li>
+            <li><a href="/src/pages/dummy/registrar.html">registrar</a></li>
+            
+        </ul>
+    </nav>
+</header>
+<body>
+    <form action="submit.php" method="post">
+        <label for="name">Nome:</label>
+        <input type="text" id="name" name="name" required>
+        
+        <label for="age">Idade:</label>
+        <input type="date" id="birthday" name="birthday">
+        
+        <p>Selecione seu sexo:</p>
+
+        <input type="radio" id="sexo1" name="age" value="30">
+        <label for="sexo">Masculino</label><br>
+        <input type="radio" id="sexo2" name="age" value="60">
+        <label for="sexo2">Feminino</label><br>  
+        <input type="radio" id="sexo3" name="age" value="100">
+        <label for="sexo3">Outro(a)</label><br><br>
+        <input type="submit" value="Submit">
+    </form>
+    <footer class="footer">
+        <p>&copy; Direitos Reservados. 2023</p>
+    </footer>
+</body>
+</html>
