@@ -1,0 +1,46 @@
+body{
+    padding: 40px;
+    background-color: aquamarine;
+    
+}
+.conteudo{
+    padding: 20px;
+    max-width: 800px;
+    width: 100%;
+    border: 2px solid black;
+    display: inline-block;
+
+  
+}
+.conteudo2{
+    padding: 20px;
+    max-width: 800px;
+    width: 100%;
+    border: 2px solid black;
+    display: inline-block;
+
+  
+}
+
+
+
+@media (max-width: 1400px) {
+    body{
+        background-color: aqua;
+    }
+    .conteudo{
+        h2{
+            font-size: 20px;
+            color: blueviolet;
+        }
+    }
+}
+
+@media (max-width: 900px) {
+    body{
+        background-color: coral;
+    }
+    
+    
+}
+

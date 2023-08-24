@@ -1,0 +1,45 @@
+body{
+    background-color: white;
+}
+h3{
+    color: gray;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+
+}
+
+fieldset{
+    padding: 20px;
+    max-width: 500px;
+    width: 100%;
+    display: inline-block;
+    border-radius: 5px;
+    border-color: goldenrod;
+    outline: 0px;
+}
+
+
+label{
+    color: goldenrod;
+}
+
+
+input{
+    border-color: white;
+    border-radius: 5px;
+    color: grey;
+
+}
+
+
+i{
+    color: goldenrod;
+}
