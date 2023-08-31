@@ -1,6 +1,6 @@
 //Importa biblioteca "Prompt" (tipo Scanner em Java) para poder escrever os valores.
 import prompt from 'prompt-sync';
-
+import {calcularMedia, verificarSituacao} from './operacoes.js';
 //Função ler, onde permite o input no console.
 const ler = prompt();
 
@@ -15,6 +15,9 @@ console.log('informe a terceira nota: ');
 let nota3 = Number (ler());
 
 //Calcula e imprime a média no console.
-let media = (nota1 + nota2 + nota3) / 3;
+
+/*let media = (nota1 + nota2 + nota3) / 3;
 
 console.log('A média é: ' +  media);
+*/
+ export function calcularMedia()
